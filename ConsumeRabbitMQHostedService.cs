@@ -102,7 +102,7 @@ Type Attendance = A000
          DateTime now = DateTime.Now;
          String TimeStamp = now.ToString();
          string[] dataParsing = content.Split('#');
-
+//tambah deskripsi
          foreach (var datas in dataParsing)
          {
             //System.Console.WriteLine($"{datas}>");
