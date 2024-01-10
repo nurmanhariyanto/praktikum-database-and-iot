@@ -42,7 +42,7 @@ Type Registration = R000
 Type Attendance = A000
 */
       private static string ValueInputReaderRegistration = "R000";
-      private static string ValueInputReaderAttendance = "A000";
+      private static string ValueInputReaderAttendance = "A0003";
       public ConsumeRabbitMQHostedService(ILoggerFactory loggerFactory)
       {
 
@@ -115,7 +115,7 @@ Type Attendance = A000
          /*
          if data is attendance code
          */
-/*
+
          if (InputTypeReader == ValueInputReaderAttendance)
          {
             var connectionStringBuilder = new SqliteConnectionStringBuilder();
@@ -170,10 +170,10 @@ Type Attendance = A000
          }
 
 
-         /*
-         if data is register code
          
-
+       
+         
+/*
          if (InputTypeReader == ValueInputReaderRegistration)
          {
             var connectionStringBuilder = new SqliteConnectionStringBuilder();
@@ -196,6 +196,8 @@ Type Attendance = A000
             }
          }
          */
+         
+         
          
       }
 

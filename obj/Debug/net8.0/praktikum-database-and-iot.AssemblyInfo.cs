@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("praktikum-database-and-iot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be5df8ac7c447790c1728bffc0bda8fdbbbb6027")]
 [assembly: System.Reflection.AssemblyProductAttribute("praktikum-database-and-iot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("praktikum-database-and-iot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
